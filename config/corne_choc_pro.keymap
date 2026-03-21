@@ -38,7 +38,21 @@
             compatible = "zmk,behavior-tap-dance";
             label = "CAPLOCKDOUBLETAP";
             #binding-cells = <0>;
-            bindings = <&kp LCTRL>, <&kp CAPS>;
+            bindings = <&kp LSHIFT>, <&kp CAPSLOCK>;
+        };
+
+        underscoreTapDance: underscoreTapDance {
+            compatible = "zmk,behavior-tap-dance";
+            label = "UNDERSCORETAPDANCE";
+            #binding-cells = <0>;
+            bindings = <&kp MINUS>, <&kp UNDER>;
+        };
+
+        doubleQuoteTap: doubleQuoteTap {
+            compatible = "zmk,behavior-tap-dance";
+            label = "DOUBLEQUOTETAP";
+            #binding-cells = <0>;
+            bindings = <&kp SINGLE_QUOTE>, <&kp DOUBLE_QUOTES>;
         };
     };
 
@@ -82,7 +96,7 @@
             display-name = "arrow_and_nav_and_del";
             bindings = <
 &trans  &trans  &trans     &trans        &trans            &trans  &trans  &trans  &none   &kp HOME  &kp UP_ARROW    &kp END    &none  &kp DEL
-&trans  &trans  &kp LCTRL  &kp LEFT_ALT  &kp LEFT_COMMAND  &trans  &trans  &trans  &none   &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &none  &none
+&trans  &none   &kp LCTRL  &kp LEFT_ALT  &kp LEFT_COMMAND  &none   &trans  &trans  &none   &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &none  &none
 &trans  &trans  &trans     &trans        &trans            &trans                  &none   &none     &none           &none      &none  &none
                            &trans        &trans            &trans                  &trans  &trans    &trans
             >;
