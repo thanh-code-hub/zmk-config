@@ -38,7 +38,9 @@
             compatible = "zmk,behavior-tap-dance";
             label = "CAPLOCKDOUBLETAP";
             #binding-cells = <0>;
-            bindings = <&kp LSHIFT>, <&kp CAPSLOCK>;
+            bindings = <&kp LCTRL>, <&kp CAPSLOCK>;
+
+            tapping-term-ms = <200>;
         };
 
         underscoreTapDance: underscoreTapDance {
@@ -46,6 +48,8 @@
             label = "UNDERSCORETAPDANCE";
             #binding-cells = <0>;
             bindings = <&kp MINUS>, <&kp UNDER>;
+
+            tapping-term-ms = <200>;
         };
 
         doubleQuoteTap: doubleQuoteTap {
@@ -53,6 +57,8 @@
             label = "DOUBLEQUOTETAP";
             #binding-cells = <0>;
             bindings = <&kp SINGLE_QUOTE>, <&kp DOUBLE_QUOTES>;
+
+            tapping-term-ms = <200>;
         };
     };
 
