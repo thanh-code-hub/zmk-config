@@ -34,13 +34,25 @@
     };
 
     behaviors {
-        caplockDoubleTap: caplockDoubleTap {
+        DTCapslock: DTCapslock {
             compatible = "zmk,behavior-tap-dance";
-            label = "CAPLOCKDOUBLETAP";
+            label = "DTCAPSLOCK";
             #binding-cells = <0>;
             bindings = <&kp LCTRL>, <&kp CAPSLOCK>;
+        };
 
-            tapping-term-ms = <200>;
+        DTDoubleQuote: DTDoubleQuote {
+            compatible = "zmk,behavior-tap-dance";
+            label = "DTDOUBLEQUOTE";
+            #binding-cells = <0>;
+            bindings = <&kp SINGLE_QUOTE>, <&kp DOUBLE_QUOTES>;
+        };
+
+        DTUnderscore: DTUnderscore {
+            compatible = "zmk,behavior-tap-dance";
+            label = "DTUNDERSCORE";
+            #binding-cells = <0>;
+            bindings = <&kp MINUS>, <&kp UNDER>;
         };
     };
 
@@ -57,10 +69,10 @@
             //                    | GUI | LWR | SPC |               | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB    &kp Q  &kp W  &kp E     &kp R  &kp T      &kp LEFT_SHIFT  &kp RIGHT_SHIFT  &kp Y    &kp U  &kp I      &kp O    &kp P     &kp BSPC
-&kp LCTRL  &kp A  &kp S  &kp D     &kp F  &kp G      &kp ESC         &mo 3            &kp H    &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z  &kp X  &kp C     &kp V  &kp B                                       &kp N    &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
-                         &kp LGUI  &mo 1  &kp SPACE                                   &kp RET  &mo 2  &kp RALT
+&kp TAB      &kp Q  &kp W  &kp E     &kp R  &kp T      &kp LEFT_SHIFT  &kp RIGHT_SHIFT  &kp Y    &kp U  &kp I      &kp O    &kp P     &kp BSPC
+&DTCapslock  &kp A  &kp S  &kp D     &kp F  &kp G      &kp ESC         &mo 3            &kp H    &kp J  &kp K      &kp L    &kp SEMI  &DTDoubleQuote
+&kp LSHFT    &kp Z  &kp X  &kp C     &kp V  &kp B                                       &kp N    &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
+                           &kp LGUI  &mo 1  &kp SPACE                                   &kp RET  &mo 2  &kp RALT
             >;
 
             sensor-bindings =
