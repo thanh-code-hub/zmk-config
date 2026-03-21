@@ -33,6 +33,15 @@
         };
     };
 
+    behaviors {
+        caplockDoubleTap: caplockDoubleTap {
+            compatible = "zmk,behavior-tap-dance";
+            label = "CAPLOCKDOUBLETAP";
+            #binding-cells = <0>;
+            bindings = <&kp LCTRL>, <&kp CAPS>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
