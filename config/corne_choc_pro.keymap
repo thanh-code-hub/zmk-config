@@ -42,24 +42,6 @@
 
             tapping-term-ms = <200>;
         };
-
-        underscoreTapDance: underscoreTapDance {
-            compatible = "zmk,behavior-tap-dance";
-            label = "UNDERSCORETAPDANCE";
-            #binding-cells = <0>;
-            bindings = <&kp MINUS>, <&kp UNDER>;
-
-            tapping-term-ms = <200>;
-        };
-
-        doubleQuoteTap: doubleQuoteTap {
-            compatible = "zmk,behavior-tap-dance";
-            label = "DOUBLEQUOTETAP";
-            #binding-cells = <0>;
-            bindings = <&kp SINGLE_QUOTE>, <&kp DOUBLE_QUOTES>;
-
-            tapping-term-ms = <200>;
-        };
     };
 
     keymap {
