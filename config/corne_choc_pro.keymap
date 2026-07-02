@@ -111,7 +111,7 @@
                          &trans   &trans   &trans                  &trans           &trans           &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_BRI_INC C_BRI_DEC>;
+            sensor-bindings = <&inc_dec_kp C_BRI_DEC C_BRI_UP>;
         };
 
         number_symbol_1 {
