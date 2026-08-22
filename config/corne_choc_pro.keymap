@@ -77,7 +77,7 @@
                 <&macro_press>,
                 <&mo 3>,
                 <&macro_tap>,
-                <&rgb_ug RGB_COLOR_HSB(149,71,66)>,
+                <&rgb_ug RGB_COLOR_HSB(41,86,62)>,
                 <&macro_pause_for_release>,
                 <&macro_release>,
                 <&mo 3>,
