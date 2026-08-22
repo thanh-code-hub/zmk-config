@@ -48,7 +48,7 @@
                 <&macro_release>,
                 <&mo 1>,
                 <&macro_tap>,
-                <&rgb_ug RGB_OFF>;
+                <&rgb_ug RGB_COLOR_HSB(0,0,0)>;
         };
 
         layer_2_rgb: layer_2_rgb {
@@ -65,7 +65,7 @@
                 <&macro_release>,
                 <&mo 2>,
                 <&macro_tap>,
-                <&rgb_ug RGB_OFF>;
+                <&rgb_ug RGB_COLOR_HSB(0,0,0)>;
         };
 
         layer_3_rgb: layer_3_rgb {
@@ -82,7 +82,7 @@
                 <&macro_release>,
                 <&mo 3>,
                 <&macro_tap>,
-                <&rgb_ug RGB_OFF>;
+                <&rgb_ug RGB_COLOR_HSB(0,0,0)>;
         };
 
         DTLSHIFT: DTLSHIFT {
