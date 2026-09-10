@@ -146,10 +146,10 @@
         number_symbol_2 {
             display-name = "EXTRA 2";
             bindings = <
-&trans            &kp EQUAL  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &trans  &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans     &kp LEFT_BRACKET
-&DTShiftAsterisk  &kp PLUS   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PERIOD    &trans  &trans  &kp PIPE          &kp GRAVE          &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp GRAVE  &kp RIGHT_SHIFT
-&kp SLASH         &kp MINUS  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp COMMA                     &kp BACKSLASH     &kp EXCL           &kp AT                &kp HASH               &kp TILDE  &trans
-                                           &trans        &trans        &trans                        &trans            &trans             &trans
+&trans            &kp KP_EQUAL  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &trans  &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans     &kp LEFT_BRACKET
+&DTShiftAsterisk  &kp PLUS      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PERIOD    &trans  &trans  &kp PIPE          &kp GRAVE          &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp GRAVE  &kp RIGHT_SHIFT
+&kp SLASH         &kp MINUS     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp COMMA                     &kp BACKSLASH     &kp EXCL           &kp AT                &kp HASH               &kp TILDE  &trans
+                                              &trans        &trans        &trans                        &trans            &trans             &trans
             >;
         };
 
