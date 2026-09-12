@@ -92,11 +92,12 @@
                 <&macro_press>,
                 <&kp SPACE>,
                 <&macro_tap>,
-                <&rgb_ug RGB_COLOR_HSB(143,100,50)>,
+                <&rgb_ug RGB_ON &rgb_ug RGB_COLOR_HSB(143,100,50)>,
+                <&macro_pause_for_release>,
                 <&macro_release>,
                 <&kp SPACE>,
                 <&macro_tap>,
-                <&rgb_ug RGB_COLOR_HSB(0,0,0)>;
+                <&rgb_ug RGB_OFF>;
 
             label = "SPACE_COLOR";
         };
