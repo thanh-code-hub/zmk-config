@@ -59,9 +59,9 @@
                 <&kp SPACE>,
                 <&macro_tap>,
                 <&rgb_ug RGB_ON &rgb_ug RGB_COLOR_HSB(113,100,50)>,
-                <&macro_wait_time 200>,
                 <&macro_release>,
                 <&kp SPACE>,
+                <&macro_wait_time 200>,
                 <&macro_tap>,
                 <&rgb_ug RGB_OFF>;
 
@@ -76,9 +76,9 @@
                 <&kp ENTER>,
                 <&macro_tap>,
                 <&rgb_ug RGB_ON &rgb_ug RGB_COLOR_HSB(240,100,58)>,
-                <&macro_wait_time 200>,
                 <&macro_release>,
                 <&kp ENTER>,
+                <&macro_wait_time 200>,
                 <&macro_tap>,
                 <&rgb_ug RGB_OFF>;
 
@@ -93,9 +93,9 @@
                 <&kp ESCAPE>,
                 <&macro_tap>,
                 <&rgb_ug RGB_ON &rgb_ug RGB_COLOR_HSB(0,86,56)>,
-                <&macro_wait_time 200>,
                 <&macro_release>,
                 <&kp ESCAPE>,
+                <&macro_wait_time 200>,
                 <&macro_tap>,
                 <&rgb_ug RGB_OFF>;
 
@@ -110,9 +110,9 @@
                 <&kp DEL>,
                 <&macro_tap>,
                 <&rgb_ug RGB_ON &rgb_ug RGB_COLOR_HSB(287,85,40)>,
-                <&macro_wait_time 200>,
                 <&macro_release>,
                 <&kp DEL>,
+                <&macro_wait_time 200>,
                 <&macro_tap>,
                 <&rgb_ug RGB_OFF>;
 
@@ -127,9 +127,9 @@
                 <&kp BACKSPACE>,
                 <&macro_tap>,
                 <&rgb_ug RGB_ON &rgb_ug RGB_COLOR_HSB(44,91,33)>,
-                <&macro_wait_time 200>,
                 <&macro_release>,
                 <&kp BACKSPACE>,
+                <&macro_wait_time 200>,
                 <&macro_tap>,
                 <&rgb_ug RGB_OFF>;
 
